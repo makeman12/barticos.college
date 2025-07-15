@@ -1,1 +1,1215 @@
-login.barticos.college.com
+<!-- Copyright (C) Microsoft Corporation. All rights reserved. -->
+<!DOCTYPE html>
+<html dir="ltr" class="" lang="en">
+
+<head>
+    <title>Sign in to your account</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <link rel="preconnect" href="https://aadcdn.msauth.net" crossorigin>
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//aadcdn.msauth.net">
+    <link rel="dns-prefetch" href="//aadcdn.msftauth.net">
+
+    <meta name="PageID" content="ConvergedSignIn" />
+    <meta name="SiteID" content="" />
+    <meta name="ReqLC" content="1033" />
+    <meta name="LocLC" content="en-US" />
+
+
+    <meta name="format-detection" content="telephone=no" />
+
+    <noscript>
+        <meta http-equiv="Refresh" content="0; URL=https://login.microsoftonline.com/jsdisabled" />
+    </noscript>
+
+
+
+    <meta name="robots" content="none" />
+
+    <script type="text/javascript" nonce='3CaLTccN-k2ZlrxubuHWJA'>
+        //<![CDATA[
+        $Config = {
+            "fShowPersistentCookiesWarning": false,
+            "urlMsaSignUp": "https://login.live.com/oauth20_authorize.srf?client_id=4765445b-32c6-49b0-83e6-1d93765276ca\u0026scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All\u0026redirect_uri=https%3a%2f%2fm365.cloud.microsoft%2flandingv2\u0026response_type=code+id_token\u0026state=SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ\u0026response_mode=form_post\u0026nonce=638881508912043169.N2FkZTg5OTQtYjhlNC00NmNlLTlhMjItYmZmODY2ZjliYmIzZGIyOTA0ZDktMThhNy00MTJiLTkwOTctNmMxNGRiNTFkMTVj\u0026x-client-SKU=ID_NET8_0\u0026x-client-Ver=8.5.0.0\u0026uaid=07bb3817ae744120bd640b2ff84a4e70\u0026msproxy=1\u0026issuer=mso\u0026tenant=common\u0026ui_locales=en-US\u0026signup=1\u0026lw=1\u0026fl=easi2\u0026epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQEh-0HTqBAVqIYE4VKlov09KIqRl3LOT0Kwwtl1D5LsSK-_tDfTGlepJg8zufBfXHXEYNtEpJERNJG9LlKc6xMSxKW4KXx_JTc-ksybSoNDWwf1_2aJQVAIV2tKrBCGlmETi6pX-aCCETkBYxZiHx3CMBLEvFJVowXFvPVpfdD1kTcZxJj4VD22gzGximwDubPH_T8ObLPFtywSr-rVEhNbiAA\u0026jshs=0",
+            "urlMsaLogout": "https://login.live.com/logout.srf?iframed_by=https%3a%2f%2flogin.microsoftonline.com",
+            "urlOtherIdpForget": "https://login.live.com/forgetme.srf?iframed_by=https%3a%2f%2flogin.microsoftonline.com",
+            "showCantAccessAccountLink": true,
+            "urlGitHubFed": "https://login.live.com/oauth20_authorize.srf?client_id=4765445b-32c6-49b0-83e6-1d93765276ca\u0026scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All\u0026redirect_uri=https%3a%2f%2fm365.cloud.microsoft%2flandingv2\u0026response_type=code+id_token\u0026state=SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ\u0026response_mode=form_post\u0026nonce=638881508912043169.N2FkZTg5OTQtYjhlNC00NmNlLTlhMjItYmZmODY2ZjliYmIzZGIyOTA0ZDktMThhNy00MTJiLTkwOTctNmMxNGRiNTFkMTVj\u0026x-client-SKU=ID_NET8_0\u0026x-client-Ver=8.5.0.0\u0026uaid=07bb3817ae744120bd640b2ff84a4e70\u0026msproxy=1\u0026issuer=mso\u0026tenant=common\u0026ui_locales=en-US\u0026epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQEKrrALQtZnO7NtBdXCWupIgJ5XupORiGMrZ2TPV5SwYA-FXe3hHAxD0iQpO5n6ZGlUag9lWnFWd8_Cp4PcP2mqSU8vSme0jfTmcrJdP-URkYf1VSeK5l6WUshTjPBRzuTlafrC8Xg2BNa3QFR0OQ-lZ4PR-atiokZ2RXh8snAKCQqfxomF_l3ZlZcGuFHZpzIfw9TEMXeXXoBANxaOu2z3iAA\u0026jshs=0\u0026idp_hint=github.com",
+            "arrExternalTrustedRealmFederatedIdps": [],
+            "fShowSignInWithGitHubOnlyOnCredPicker": true,
+            "fEnableShowResendCode": true,
+            "iShowResendCodeDelay": 90000,
+            "sSMSCtryPhoneData": "AF~Afghanistan~93!!!AX~Åland Islands~358!!!AL~Albania~355!!!DZ~Algeria~213!!!AS~American Samoa~1!!!AD~Andorra~376!!!AO~Angola~244!!!AI~Anguilla~1!!!AG~Antigua and Barbuda~1!!!AR~Argentina~54!!!AM~Armenia~374!!!AW~Aruba~297!!!AC~Ascension Island~247!!!AU~Australia~61!!!AT~Austria~43!!!AZ~Azerbaijan~994!!!BS~Bahamas~1!!!BH~Bahrain~973!!!BD~Bangladesh~880!!!BB~Barbados~1!!!BY~Belarus~375!!!BE~Belgium~32!!!BZ~Belize~501!!!BJ~Benin~229!!!BM~Bermuda~1!!!BT~Bhutan~975!!!BO~Bolivia~591!!!BQ~Bonaire~599!!!BA~Bosnia and Herzegovina~387!!!BW~Botswana~267!!!BR~Brazil~55!!!IO~British Indian Ocean Territory~246!!!VG~British Virgin Islands~1!!!BN~Brunei~673!!!BG~Bulgaria~359!!!BF~Burkina Faso~226!!!BI~Burundi~257!!!CV~Cabo Verde~238!!!KH~Cambodia~855!!!CM~Cameroon~237!!!CA~Canada~1!!!KY~Cayman Islands~1!!!CF~Central African Republic~236!!!TD~Chad~235!!!CL~Chile~56!!!CN~China~86!!!CX~Christmas Island~61!!!CC~Cocos (Keeling) Islands~61!!!CO~Colombia~57!!!KM~Comoros~269!!!CG~Congo~242!!!CD~Congo (DRC)~243!!!CK~Cook Islands~682!!!CR~Costa Rica~506!!!CI~Côte d\u0027Ivoire~225!!!HR~Croatia~385!!!CU~Cuba~53!!!CW~Curaçao~599!!!CY~Cyprus~357!!!CZ~Czechia~420!!!DK~Denmark~45!!!DJ~Djibouti~253!!!DM~Dominica~1!!!DO~Dominican Republic~1!!!EC~Ecuador~593!!!EG~Egypt~20!!!SV~El Salvador~503!!!GQ~Equatorial Guinea~240!!!ER~Eritrea~291!!!EE~Estonia~372!!!ET~Ethiopia~251!!!FK~Falkland Islands~500!!!FO~Faroe Islands~298!!!FJ~Fiji~679!!!FI~Finland~358!!!FR~France~33!!!GF~French Guiana~594!!!PF~French Polynesia~689!!!GA~Gabon~241!!!GM~Gambia~220!!!GE~Georgia~995!!!DE~Germany~49!!!GH~Ghana~233!!!GI~Gibraltar~350!!!GR~Greece~30!!!GL~Greenland~299!!!GD~Grenada~1!!!GP~Guadeloupe~590!!!GU~Guam~1!!!GT~Guatemala~502!!!GG~Guernsey~44!!!GN~Guinea~224!!!GW~Guinea-Bissau~245!!!GY~Guyana~592!!!HT~Haiti~509!!!HN~Honduras~504!!!HK~Hong Kong SAR~852!!!HU~Hungary~36!!!IS~Iceland~354!!!IN~India~91!!!ID~Indonesia~62!!!IR~Iran~98!!!IQ~Iraq~964!!!IE~Ireland~353!!!IM~Isle of Man~44!!!IL~Israel~972!!!IT~Italy~39!!!JM~Jamaica~1!!!JP~Japan~81!!!JE~Jersey~44!!!JO~Jordan~962!!!KZ~Kazakhstan~7!!!KE~Kenya~254!!!KI~Kiribati~686!!!KR~Korea~82!!!KW~Kuwait~965!!!KG~Kyrgyzstan~996!!!LA~Laos~856!!!LV~Latvia~371!!!LB~Lebanon~961!!!LS~Lesotho~266!!!LR~Liberia~231!!!LY~Libya~218!!!LI~Liechtenstein~423!!!LT~Lithuania~370!!!LU~Luxembourg~352!!!MO~Macao SAR~853!!!MG~Madagascar~261!!!MW~Malawi~265!!!MY~Malaysia~60!!!MV~Maldives~960!!!ML~Mali~223!!!MT~Malta~356!!!MH~Marshall Islands~692!!!MQ~Martinique~596!!!MR~Mauritania~222!!!MU~Mauritius~230!!!YT~Mayotte~262!!!MX~Mexico~52!!!FM~Micronesia~691!!!MD~Moldova~373!!!MC~Monaco~377!!!MN~Mongolia~976!!!ME~Montenegro~382!!!MS~Montserrat~1!!!MA~Morocco~212!!!MZ~Mozambique~258!!!MM~Myanmar~95!!!NA~Namibia~264!!!NR~Nauru~674!!!NP~Nepal~977!!!NL~Netherlands~31!!!NC~New Caledonia~687!!!NZ~New Zealand~64!!!NI~Nicaragua~505!!!NE~Niger~227!!!NG~Nigeria~234!!!NU~Niue~683!!!NF~Norfolk Island~672!!!KP~North Korea~850!!!MK~North Macedonia~389!!!MP~Northern Mariana Islands~1!!!NO~Norway~47!!!OM~Oman~968!!!PK~Pakistan~92!!!PW~Palau~680!!!PS~Palestinian Authority~970!!!PA~Panama~507!!!PG~Papua New Guinea~675!!!PY~Paraguay~595!!!PE~Peru~51!!!PH~Philippines~63!!!PL~Poland~48!!!PT~Portugal~351!!!PR~Puerto Rico~1!!!QA~Qatar~974!!!RE~Réunion~262!!!RO~Romania~40!!!RU~Russia~7!!!RW~Rwanda~250!!!BL~Saint Barthélemy~590!!!KN~Saint Kitts and Nevis~1!!!LC~Saint Lucia~1!!!MF~Saint Martin~590!!!PM~Saint Pierre and Miquelon~508!!!VC~Saint Vincent and the Grenadines~1!!!WS~Samoa~685!!!SM~San Marino~378!!!ST~São Tomé and Príncipe~239!!!SA~Saudi Arabia~966!!!SN~Senegal~221!!!RS~Serbia~381!!!SC~Seychelles~248!!!SL~Sierra Leone~232!!!SG~Singapore~65!!!SX~Sint Maarten~1!!!SK~Slovakia~421!!!SI~Slovenia~386!!!SB~Solomon Islands~677!!!SO~Somalia~252!!!ZA~South Africa~27!!!SS~South Sudan~211!!!ES~Spain~34!!!LK~Sri Lanka~94!!!SH~St Helena, Ascension, and Tristan da Cunha~290!!!SD~Sudan~249!!!SR~Suriname~597!!!SJ~Svalbard~47!!!SZ~Swaziland~268!!!SE~Sweden~46!!!CH~Switzerland~41!!!SY~Syria~963!!!TW~Taiwan~886!!!TJ~Tajikistan~992!!!TZ~Tanzania~255!!!TH~Thailand~66!!!TL~Timor-Leste~670!!!TG~Togo~228!!!TK~Tokelau~690!!!TO~Tonga~676!!!TT~Trinidad and Tobago~1!!!TA~Tristan da Cunha~290!!!TN~Tunisia~216!!!TR~Turkey~90!!!TM~Turkmenistan~993!!!TC~Turks and Caicos Islands~1!!!TV~Tuvalu~688!!!VI~U.S. Virgin Islands~1!!!UG~Uganda~256!!!UA~Ukraine~380!!!AE~United Arab Emirates~971!!!GB~United Kingdom~44!!!US~United States~1!!!UY~Uruguay~598!!!UZ~Uzbekistan~998!!!VU~Vanuatu~678!!!VA~Vatican City~39!!!VE~Venezuela~58!!!VN~Vietnam~84!!!WF~Wallis and Futuna~681!!!YE~Yemen~967!!!ZM~Zambia~260!!!ZW~Zimbabwe~263",
+            "fUseInlinePhoneNumber": true,
+            "fShowTilesAfterSessionPull": true,
+            "fDetectBrowserCapabilities": true,
+            "fUseMinHeight": true,
+            "fShouldSupportTargetCredentialForRecovery": true,
+            "fAvoidNewOtcGenerationWhenAlreadySent": true,
+            "fUsePromotedFedCredTypesArray": true,
+            "fUseCertificateInterstitialView": true,
+            "fIsPasskeySupportEnabled": true,
+            "arrPromotedFedCredTypes": [],
+            "fShowUserAlreadyExistErrorHandling": true,
+            "fBlockOnAppleEmailClaimError": true,
+            "fIsVerifiableCredentialsSupportEnabled": true,
+            "iVerifiableCredentialPresentationPollingIntervalSeconds": 0.5,
+            "iVerifiableCredentialPresentationPollingTimeoutSeconds": 300,
+            "fIsQrPinEnabled": true,
+            "fPasskeyAssertionRedirect": true,
+            "fSamlAndOidcCompatibleUx": true,
+            "fFixUrlExternalIdpFederation": true,
+            "fUseIdpRedirectEnhancements": true,
+            "fUpdateFacebookIcon": true,
+            "fEnableBackButtonBugFix": true,
+            "fEnableTotalLossRecovery": true,
+            "urlSessionState": "https://login.microsoftonline.com/common/DeviceCodeStatus",
+            "urlResetPassword": "https://passwordreset.microsoftonline.com/?ru=https%3a%2f%2flogin.microsoftonline.com%2fcommon%2freprocess%3fctx%3drQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0\u0026mkt=en-US\u0026hosted=0\u0026device_platform=Windows+10",
+            "fHideResetPasswordLink": true,
+            "urlMsaResetPassword": "https://account.live.com/password/reset?wreply=https%3a%2f%2flogin.microsoftonline.com%2fcommon%2freprocess%3fctx%3drQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0\u0026mkt=en-US",
+            "fFixUrlResetPassword": true,
+            "urlSignUp": "https://login.live.com/oauth20_authorize.srf?client_id=4765445b-32c6-49b0-83e6-1d93765276ca\u0026scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All\u0026redirect_uri=https%3a%2f%2fm365.cloud.microsoft%2flandingv2\u0026response_type=code+id_token\u0026state=SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ\u0026response_mode=form_post\u0026nonce=638881508912043169.N2FkZTg5OTQtYjhlNC00NmNlLTlhMjItYmZmODY2ZjliYmIzZGIyOTA0ZDktMThhNy00MTJiLTkwOTctNmMxNGRiNTFkMTVj\u0026x-client-SKU=ID_NET8_0\u0026x-client-Ver=8.5.0.0\u0026uaid=07bb3817ae744120bd640b2ff84a4e70\u0026msproxy=1\u0026issuer=mso\u0026tenant=common\u0026ui_locales=en-US\u0026signup=1\u0026lw=1\u0026fl=easi2\u0026epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQEh-0HTqBAVqIYE4VKlov09KIqRl3LOT0Kwwtl1D5LsSK-_tDfTGlepJg8zufBfXHXEYNtEpJERNJG9LlKc6xMSxKW4KXx_JTc-ksybSoNDWwf1_2aJQVAIV2tKrBCGlmETi6pX-aCCETkBYxZiHx3CMBLEvFJVowXFvPVpfdD1kTcZxJj4VD22gzGximwDubPH_T8ObLPFtywSr-rVEhNbiAA\u0026jshs=0",
+            "urlGetCredentialType": "https://login.microsoftonline.com/common/GetCredentialType?mkt=en-US",
+            "urlGetRecoveryCredentialType": "https://login.microsoftonline.com/common/getrecoverycredentialtype?mkt=en-US",
+            "urlGetOneTimeCode": "https://login.microsoftonline.com/common/GetOneTimeCode",
+            "urlLogout": "https://login.microsoftonline.com/common/uxlogout",
+            "urlForget": "https://login.microsoftonline.com/forgetuser",
+            "urlDisambigRename": "https://go.microsoft.com/fwlink/p/?LinkID=733247",
+            "urlGoToAADError": "https://login.live.com/oauth20_authorize.srf?client_id=4765445b-32c6-49b0-83e6-1d93765276ca\u0026scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All\u0026redirect_uri=https%3a%2f%2fm365.cloud.microsoft%2flandingv2\u0026response_type=code+id_token\u0026state=SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ\u0026response_mode=form_post\u0026nonce=638881508912043169.N2FkZTg5OTQtYjhlNC00NmNlLTlhMjItYmZmODY2ZjliYmIzZGIyOTA0ZDktMThhNy00MTJiLTkwOTctNmMxNGRiNTFkMTVj\u0026x-client-SKU=ID_NET8_0\u0026x-client-Ver=8.5.0.0\u0026uaid=07bb3817ae744120bd640b2ff84a4e70\u0026msproxy=1\u0026issuer=mso\u0026tenant=common\u0026ui_locales=en-US\u0026epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQEKrrALQtZnO7NtBdXCWupIgJ5XupORiGMrZ2TPV5SwYA-FXe3hHAxD0iQpO5n6ZGlUag9lWnFWd8_Cp4PcP2mqSU8vSme0jfTmcrJdP-URkYf1VSeK5l6WUshTjPBRzuTlafrC8Xg2BNa3QFR0OQ-lZ4PR-atiokZ2RXh8snAKCQqfxomF_l3ZlZcGuFHZpzIfw9TEMXeXXoBANxaOu2z3iAA\u0026jshs=0",
+            "urlDeviceFingerprinting": "",
+            "urlPIAEndAuth": "https://login.microsoftonline.com/common/PIA/EndAuth",
+            "urlStartTlr": "https://login.microsoftonline.com/common/tlr/start#continuationToken=%7b0%7d\u0026undirectedRecoveryUrl=%7b1%7d",
+            "fCBShowSignUp": true,
+            "fKMSIEnabled": false,
+            "iLoginMode": 121,
+            "fAllowPhoneSignIn": true,
+            "fAllowPhoneInput": true,
+            "fAllowSkypeNameLogin": true,
+            "iMaxPollErrors": 5,
+            "iPollingTimeout": 120,
+            "srsSuccess": true,
+            "fShowSwitchUser": true,
+            "arrValErrs": ["16000"],
+            "sErrorCode": "16000",
+            "sWAMExtension": "ppnbnpeolgkicgegkbkbjmhlideopiji",
+            "sWAMChannel": "53ee284d-920a-4b59-9d30-a60315b26836",
+            "sErrTxt": "",
+            "sResetPasswordPrefillParam": "username",
+            "onPremPasswordValidationConfig": {
+                "isUserRealmPrecheckEnabled": true
+            },
+            "fSwitchDisambig": true,
+            "oCancelPostParams": {
+                "error": "access_denied",
+                "error_subcode": "cancel",
+                "state": "SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ",
+                "canary": "VEbsBNjeD/tZFGfTsmx4PQA3Uhd6NBXQrnqhIrG3REU=2:1:CANARY:EQegT+8buFPtHulyEBdNDl2TBzAF77VvDLa3kNg97SM="
+            },
+            "iRemoteNgcPollingType": 2,
+            "oGetCredTypeResult": {
+                "Username": "alanahinton@student.midlandstech.edu",
+                "Display": "alanahinton@student.midlandstech.edu",
+                "IfExistsResult": 0,
+                "IsUnmanaged": false,
+                "ThrottleStatus": 1,
+                "Credentials": {
+                    "PrefCredential": 4,
+                    "HasPassword": true,
+                    "FederationRedirectUrl": "https://fs.midlandstech.edu/adfs/ls/?mkt=en-US\u0026client-request-id=07bb3817-ae74-4120-bd64-0b2ff84a4e70\u0026username=alanahinton%40student.midlandstech.edu\u0026wa=wsignin1.0\u0026wtrealm=urn%3afederation%3aMicrosoftOnline\u0026wctx=estsredirect%3d2%26estsrequest%3drQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0",
+                    "OtcNotAutoSent": false
+                },
+                "DfpProperties": {},
+                "EstsProperties": {
+                    "UserTenantBranding": [{
+                        "Locale": 0,
+                        "BannerLogo": "https://aadcdn.msauthimages.net/dbd5a2dd-2-zha1all9mfubztbjjfml7l4twwguhswdunkpwdzji/logintenantbranding/0/bannerlogo?ts=638278074297682830",
+                        "Illustration": "https://aadcdn.msauthimages.net/dbd5a2dd-2-zha1all9mfubztbjjfml7l4twwguhswdunkpwdzji/logintenantbranding/0/illustration?ts=638284892512664078",
+                        "BoilerPlateText": "<p>Midlands Technical College Login Page</p>\n",
+                        "UserIdLabel": "yourusername@midlandstech.edu",
+                        "KeepMeSignedInDisabled": true,
+                        "UseTransparentLightBox": false,
+                        "LayoutTemplateConfig": {
+                            "showHeader": false,
+                            "headerLogo": "",
+                            "layoutType": 0,
+                            "hideCantAccessYourAccount": false,
+                            "hideForgotMyPassword": false,
+                            "hideResetItNow": false,
+                            "hideAccountResetCredentials": true,
+                            "showFooter": false,
+                            "hideTOU": false,
+                            "hidePrivacy": false
+                        },
+                        "Favicon": "https://aadcdn.msauthimages.net/dbd5a2dd-2-zha1all9mfubztbjjfml7l4twwguhswdunkpwdzji/logintenantbranding/0/favicon?ts=638278055199691434"
+                    }],
+                    "DomainType": 4
+                },
+                "FlowToken": "AQABIQEAAABVrSpeuWamRam2jAF1XRQEmy8capkaUH8_m-u1esxzdSbYKNEAxQQIOI_W2X_FzMh_SX1ZU9TRQ4Qzpr5YZ1tu0pTt9UnXyeVsW_LTqGcF8vVHNXlxfvMFYRkdINlaBlspcvJvJ5YdpskGrI66f9Tf0A--PSd8U-jkcWiGGkko4Xv9261MxQ6tIY93ExvIF9OFdVgf03_I8bMBZ8Te0Blf7ToKN9uujrfbQfI_-7R5j8JuRaxlomFW2ybrLIbgmuBU_CfKv86e1kOefgs7WDTG1VTRAHEqlbMxHMy5gz7HVaWITZO9TqhTVqMnWriV_EALzVQ132FaVis5YZnMc1FUFRK_sD2khAqqzGwa8LpaE4xIeroPxSNl5kKUEYiyinsLfLEix4DLLS7qnbdrxyXPDWbCE5-PnOefgdhR5SR62YfL04FK0eAtyd8ISbZNnUo2Ui1jV6eGqFA77E6UpMadfKWNrsFPiUKMUGdBu0WU1DMVewIBfKbXjVwW0T7k8VrZ0XX9BV-UG2uUU4V5_UuDvIgYuzdTk2hG6twopDlXGSAA",
+                "IsSignupDisallowed": true
+            },
+            "fUseNewNoPasswordTypes": true,
+            "urlAadSignup": "https://signup.microsoft.com/signup?sku=teams_commercial_trial\u0026origin=ests\u0026culture=en-US",
+            "urlOidcDiscoveryEndpointFormat": "https://login.microsoftonline.com/{0}/.well-known/openid-configuration",
+            "urlTenantedEndpointFormat": "https://login.microsoftonline.com/{0}/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca\u0026redirect_uri=https%3a%2f%2fm365.cloud.microsoft%2flandingv2\u0026response_type=code+id_token\u0026scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All\u0026response_mode=form_post\u0026nonce=638881508912043169.N2FkZTg5OTQtYjhlNC00NmNlLTlhMjItYmZmODY2ZjliYmIzZGIyOTA0ZDktMThhNy00MTJiLTkwOTctNmMxNGRiNTFkMTVj\u0026ui_locales=en-US\u0026mkt=en-US\u0026prompt=select_account\u0026client-request-id=07bb3817-ae74-4120-bd64-0b2ff84a4e70\u0026state=SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ\u0026x-client-SKU=ID_NET8_0\u0026x-client-ver=8.5.0.0\u0026allowbacktocommon=True",
+            "sCloudInstanceName": "microsoftonline.com",
+            "fShowSignInOptionsAsButton": true,
+            "fUseNewPhoneSignInError": true,
+            "fImprovePhoneDisambig": true,
+            "fIsUpdatedAutocompleteEnabled": true,
+            "fActivateFocusOnApprovalNumberRemoteNGC": true,
+            "fIsPasskey": true,
+            "fEnableDFPIntegration": true,
+            "fEnableCenterFocusedApprovalNumber": true,
+            "fShowPassKeyErrorUCP": true,
+            "fFixPhoneDisambigSignupRedirect": true,
+            "fEnableQrCodeA11YFixes": true,
+            "fEnablePasskeyAwpError": true,
+            "fEnableAuthenticatorTimeoutFix": true,
+            "fEnablePasskeyAutofillUI": true,
+            "sFidoChallenge": "O.eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Il9qTndqZVNudlRUSzhYRWRyNVFVUGtCUkxMbyJ9.eyJhdWQiOiJ1cm46bWljcm9zb2Z0OmZpZG86Y2hhbGxlbmdlIiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5taWNyb3NvZnQuY29tIiwiaWF0IjoxNzUyNTU0MTEyLCJuYmYiOjE3NTI1NTQxMTIsImV4cCI6MTc1MjU1NDQxMn0.nzfFhNCJWmqki0S-U9LN_n-kOn4qPUwdeuvQoHuCUm1c1csO4fRF_D5WmTVB1mRzWB0cHtC6K9YwGlB3uY7p7c8RMgpEfVvLmNkyWBNVR25LDKjur6tSn3vnsFk1rgpfVs5U7x2fApl-JC0q8y-mBKzmab4Q8cIEPVipsJ_onc33ztvDBtJLlZo2_SD5OGYmp9s2NLT3GGCUvEoKPpUrPFbAQAs9e6lTRUPZC56Qc_gXT2JDnpsXiGWV4HaImeLn3_2E3TbLejX5qdPGSCaWA771iMuumm3cwwhyXUXLjnL4eN9FV9Tc3t6nlOuTrmzVte6T3O5WEFMgz56mLRty-w",
+            "sCrossDomainCanary": "PAQABDgEAAABVrSpeuWamRam2jAF1XRQEqbDR6NhSr0j42aUx7ItDF-laZLIREOWAz-qWKIKVpVyW5YmjY3zMCkg_FFXjSXWdlDLLy6gjiHwNOLYHfZE4Z_mlehTq7NjwsthFUeGA_jciUAB3KkFSY3W7kMGSV-8uZWXC2JiVr8QvQxVfRvuM1wXHXJ_ql6zP_2JlR_ZyokqcnpDXoGMbsWiifnEmTunsCMsHbmmhKFXajgdDHIZ9JyAA",
+            "fUseGetTileDisplayName": true,
+            "arrExcludedDisplayNames": ["unknown"],
+            "iMaxStackForKnockoutAsyncComponents": 10000,
+            "fShowButtons": true,
+            "urlCdn": "https://aadcdn.msauth.net/shared/1.0/",
+            "urlDefaultFavicon": "https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico",
+            "urlFooterTOU": "https://www.microsoft.com/en-US/servicesagreement/",
+            "urlFooterPrivacy": "https://privacy.microsoft.com/en-US/privacystatement",
+            "urlPost": "https://login.microsoftonline.com/common/login",
+            "urlPostAad": "https://login.microsoftonline.com/common/login",
+            "urlPostMsa": "https://login.live.com/ppsecure/partnerpost.srf?flow=fido\u0026client_id=4765445b-32c6-49b0-83e6-1d93765276ca\u0026scope=openid+profile+https%3a%2f%2fwww.office.com%2fv2%2fOfficeHome.All\u0026redirect_uri=https%3a%2f%2fm365.cloud.microsoft%2flandingv2\u0026response_type=code+id_token\u0026state=SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ\u0026response_mode=form_post\u0026nonce=638881508912043169.N2FkZTg5OTQtYjhlNC00NmNlLTlhMjItYmZmODY2ZjliYmIzZGIyOTA0ZDktMThhNy00MTJiLTkwOTctNmMxNGRiNTFkMTVj\u0026x-client-SKU=ID_NET8_0\u0026x-client-Ver=8.5.0.0\u0026uaid=07bb3817ae744120bd640b2ff84a4e70\u0026msproxy=1\u0026issuer=mso\u0026tenant=common\u0026ui_locales=en-US\u0026epct=PAQABDgEAAABVrSpeuWamRam2jAF1XRQETWkxGftnZqonSfi9ufHdp1Rfj-L-6FDDruJRWnYVRoiL0fe6HAKYtgPwXaf02dJxGKutrtUxKzQIF-B2TV8WwlpzWysLdxgIkMQ9IzK1L1ua5v8xsPN3pN3UTSlOfTm2LvpFju-LyvZfC8LAdPuyo83CWYQFt4FTeqpqJ_F6why947yCFSSxOR2g4J6Y8anDYbDY1wyrSAh8qrmhYVAGQyAA\u0026jshs=0",
+            "urlRefresh": "https://login.microsoftonline.com/common/reprocess?ctx=rQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0\u0026prompt=select_account",
+            "urlCancel": "https://m365.cloud.microsoft/landingv2",
+            "urlResume": "https://login.microsoftonline.com/common/resume?ctx=rQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0",
+            "iPawnIcon": 0,
+            "iPollingInterval": 1,
+            "sPOST_Username": "alanahinton@student.midlandstech.edu",
+            "sFT": "AQABIQEAAABVrSpeuWamRam2jAF1XRQEWkq58XcEYVRhjKZje3EzzFlwDJg9vac6jZDYK9Og4kgDxf8iYBIyjzwpOKOq9citHJTlDV-6bGAoRR3GEez8FzChYlb13LSyGIq1vwE9vmp6-M8q013QosVqzp6iwelR_xnJ-2rKweppQKlm4DNgf8Blk1fOUHJT7jK-K3rwngt872-eX2sRGpBHMcfS-yroGc9Dr4MwEFBkTVZIWcYzd_i28TN_Om8sL2e2MXNFlGFMiTvyJnYavsFBjj69IEAat5KIGhgn4TLl7G-1MaU9ufXC9mlxmK37DEcyfeHNnickjc9Gc8s89HgevkKCz-_hWxoMrz7MgjvNzc5NZpD49H4OqNe01Efug6rliTVClFTs65Df_NLPxq0ipDFQ9NtESnIP2JoDni8_5fQ4gs4WKjhBgmhChVHfkLy3YFHTnhIfXVfZFgMwZ66UQD_I-3CYzvFCPrrgiL30uV-fTPn3DwQbIFBTiY74iHKwlWGXNfHkEUi-NtBkc0nwIVyVATk_s-dtHSuNvvf6qhfeq-h2BSAA",
+            "sFTName": "flowToken",
+            "sFTCookieName": "ESTSWCTXFLOWTOKEN",
+            "sSessionIdentifierName": "code",
+            "sCtx": "rQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0",
+            "iProductIcon": -1,
+            "fEnableOneDSClientTelemetry": true,
+            "staticTenantBranding": null,
+            "oAppCobranding": {},
+            "iBackgroundImage": 2,
+            "arrSessions": [{
+                "id": "005e5489-0f72-ad0b-1d43-a7fa1d8b7699",
+                "name": "alanahinton@student.midlandstech.edu",
+                "displayName": "alanahinton@student.midlandstech.edu",
+                "fullName": "",
+                "idp": 0,
+                "idpAuthUrl": ""
+            }, {
+                "id": "005ddf59-629e-49ce-7c9e-c179c29ce4d5",
+                "name": "abigailprubadeau@student.midlandstech.edu",
+                "displayName": "abigailprubadeau@student.midlandstech.edu",
+                "fullName": "",
+                "idp": 0,
+                "idpAuthUrl": ""
+            }, {
+                "id": "005d6a29-8797-b4f1-06d9-bbce1b9257f5",
+                "name": "padeyemo@student.cscc.edu",
+                "displayName": "padeyemo@student.cscc.edu",
+                "fullName": "",
+                "idp": 0,
+                "idpAuthUrl": ""
+            }, {
+                "id": "005d6a29-daf5-d191-23d1-5a8da8d37594",
+                "name": "na644522@ohio.edu",
+                "displayName": "na644522@ohio.edu",
+                "fullName": "",
+                "idp": 0,
+                "idpAuthUrl": ""
+            }],
+            "urlMsaMeControl": "https://login.live.com/Me.srf?wa=wsignin1.0\u0026idpflag=direct\u0026wreply=https%3a%2f%2flogin.microsoftonline.com",
+            "sTransientDataMsaMeControl": "",
+            "sPersistentDataMsaMeControl": "",
+            "urlMsaStaticMeControl": "https://login.live.com/Me.htm?v=3",
+            "fApplicationInsightsEnabled": false,
+            "iApplicationInsightsEnabledPercentage": 0,
+            "urlSetDebugMode": "https://login.microsoftonline.com/common/debugmode",
+            "fEnableCssAnimation": true,
+            "fAllowGrayOutLightBox": true,
+            "fProvideV2SsoImprovements": true,
+            "fUseMsaSessionState": true,
+            "fIsRemoteNGCSupported": true,
+            "desktopSsoConfig": {
+                "isEdgeAnaheimAllowed": true,
+                "iwaEndpointUrlFormat": "https://autologon.microsoftazuread-sso.com/{0}/winauth/sso?client-request-id=07bb3817-ae74-4120-bd64-0b2ff84a4e70",
+                "iwaSsoProbeUrlFormat": "https://autologon.microsoftazuread-sso.com/{0}/winauth/ssoprobe?client-request-id=07bb3817-ae74-4120-bd64-0b2ff84a4e70",
+                "iwaIFrameUrlFormat": "https://autologon.microsoftazuread-sso.com/{0}/winauth/iframe?client-request-id=07bb3817-ae74-4120-bd64-0b2ff84a4e70\u0026isAdalRequest=False",
+                "iwaRequestTimeoutInMs": 10000,
+                "startDesktopSsoOnPageLoad": false,
+                "progressAnimationTimeout": 10000,
+                "isEdgeAllowed": false,
+                "minDssoEdgeVersion": "17",
+                "isSafariAllowed": true,
+                "redirectUri": "https://m365.cloud.microsoft/landingv2",
+                "redirectDssoErrorPostParams": {
+                    "error": "interaction_required",
+                    "error_description": "Session information is not sufficient for single-sign-on.",
+                    "state": "SRlBPhNlwCrgnqSmYDkWTGoQT6Mi86Udyv8q-ggaJUN2GAajHVUKSn17V0qVaL7qLZKqcE7RocUMsqYmEUXG40vvpUjKyqq5FvG63FFpZtkdOUr4I-Io30BJz2HsW6dPg4C8wyg5d8WAbhQZci2g00bPZBqAcNQgwvZom2ekXCSvPnn2-ZXXfo4fQn_6J5j4p_1O3ikHwFz0PO8OCD51tJ1nB2DyxhTgquKfKioTC1vjpeu7WwoKAYMfqpvu4xdSYkmBUe7famSOouZiY8E7F5kRRxK8OZne4SE1fHx14RS_k_LyxM58qsp9ZQ8jD9_MWQ63Uw7DioVDwJUN3MqaU76Av-iRfsVYx8IM1PV_2pZR53AGffDw_ubApoPalBWFYb-6_tGUvdpSFPySwmVDMQ",
+                    "canary": "VEbsBNjeD/tZFGfTsmx4PQA3Uhd6NBXQrnqhIrG3REU=2:1:CANARY:EQegT+8buFPtHulyEBdNDl2TBzAF77VvDLa3kNg97SM="
+                },
+                "isIEAllowedForSsoProbe": true,
+                "edgeRedirectUri": "https://autologon.microsoftazuread-sso.com/common/winauth/sso/edgeredirect?client-request-id=07bb3817-ae74-4120-bd64-0b2ff84a4e70\u0026origin=login.microsoftonline.com\u0026is_redirected=1",
+                "isFlowTokenPassedInEdge": true
+            },
+            "urlLogin": "https://login.microsoftonline.com/common/reprocess?ctx=rQQIARAAjZO7j-NkFMXzmMk8gN3ZAfEokKZACAFJ_LYz0hZOHOdpO4ntJHZjOX7F8eOzY8dO5i-gYyqKrRB0A1ohKgRCop5qG5qtaCiYRWiFhDQFBbMgSiSkq6N7dHSbq_M7PqBqeA2qQe-XkRp0_g5GEjiG4YsqihhEFWssoCqFWkQVNhvoXYSQhKGvT49P3qC-O0gfn9Hfmy_Vb_t8dFV8d5mmUXJerwcogdcMH2zMWuAaa5AAO637emi6oZMh3xSLT4rFR6V9K6zK4lUpIVCKomAcohowAmEoTDRqPMJ6quTggjROldXS51sQxAe8P5T8JbfqpUqgBgKjIOrKd5Wgd6F2ejtBoiGV8VJOWi75HQRxUt8dSl4uSEbKB9yW70xcXmI9TpqunpbuC_QmXSIvBKzdC-umdC-xfMtINd0wwCZMfy8d2WAdaBFI0kflT8rixG-Olryft9ZOGIuBwngzqQPGEsG5FCGbu4yKq46j92Ue6dD6qjuVB2IIk1MonupDMh6qg9hokxNgyFwSK0FbnncwKMsieTXYxTHOZh0CZdlITT1TkNdYr9oDKNTsXyDdZEaYIwdrUfnOwU1qRi-WY9VwEQeCFiO1GdMGP3byTAUBYnnzlpiNwhCpqvO5DTB7HGpEH19hkQYLqOt1c_YCGgmU0GJwOO3DYRNhdtul5MSbgT1wgdSCs1VkbchZDga0wtlxlG2wrSkqXtCULdLWA1EAG9VVqDbJ4t5ksh1QghpamNiG7e4Wxiai5mnD3ZbDqTiJGuqYWjENjZuNCVTOScYFUya_exLKxbpMEnRWdSd2MlW2VI-DR1MNidQJjtId22ZybbOgIzDS_eaMVRZVQks7cmZGIjvaiXkwZbjxVfmtf1uX53kN2LZrWDUDBPUM-bpcuVsCEF6XSRBZoWueRWtgu7519p83deFv1wWBVaN9_8le8Wbv9cPDk_03C2eF916DyueHh8cnhRfudq_42f4dCD_-TD2-OviT__zy7S8-zU8L1_v1aXuRNPmVxdRTle3YUhJssdGYRuWlSfDN-XgdxsveuoNO2vJD5By-rBQvK5XrylGP0fi2RGnQ80rxo4PCt0f_E6mnL796fLxxNR8Yum8lp_-g9cMrhdt7f3z56y8fP3v-W_fm_oftseVIH1CLDTtKuxt_126aPOMjUvOCZklymjFDHfV4p0GK3MOvTgo_3c2Dwu2Dy9Jf0",
+            "urlDssoStatus": "https://login.microsoftonline.com/common/instrumentation/dssostatus",
+            "iSessionPullType": 3,
+            "fUseSameSite": true,
+            "iAllowedIdentities": 2,
+            "isGlobalTenant": true,
+            "uiflavor": 1001,
+            "urlFidoHelp": "https://go.microsoft.com/fwlink/?linkid=2013738",
+            "urlFidoLogin": "https://login.microsoft.com/common/fido/get?uiflavor=Web",
+            "fIsFidoSupported": true,
+            "fLoadStringCustomizationPromises": true,
+            "fOfflineAccountVisible": false,
+            "fEnableUserStateFix": true,
+            "fAccessPassSupported": true,
+            "fShowAccessPassPeek": true,
+            "fUpdateSessionPollingLogic": true,
+            "fEnableShowPickerCredObservable": true,
+            "fFetchSessionsSkipDsso": true,
+            "fIsCiamUserFlowUxNewLogicEnabled": true,
+            "fUseNonMicrosoftDefaultBrandingForCiam": true,
+            "sCompanyDisplayName": "Microsoft Services",
+            "fRemoveCustomCss": true,
+            "fFixUICrashForApiRequestHandler": true,
+            "fShowUpdatedKoreanPrivacyFooter": true,
+            "fUsePostCssHotfix": true,
+            "fUseHighContrastDetectionMode": true,
+            "fFixUserFlowBranding": true,
+            "fIsQrCodePinSupported": true,
+            "fEnablePasskeyNullFix": true,
+            "fEnableRefreshCookiesFix": true,
+            "urlAcmaServerPath": "https://login.microsoftonline.com",
+            "sTenantId": "common",
+            "sMkt": "en-US",
+            "fIsDesktop": true,
+            "scid": 1013,
+            "hpgact": 1800,
+            "hpgid": 1104,
+            "pgid": "ConvergedSignIn",
+            "apiCanary": "PAQABDgEAAABVrSpeuWamRam2jAF1XRQE6r89GPZvMCoF6uQwgV96fpDkW6oiMeAZfPcuGX5hXe0AQjn5gsfVU56SoLTuUEZOIKTRgtrP2kDFtQBpBZbQuwWXvMLBCnE47opc1zItBITY50op2zOvmKsyWrzTSIUa2gLwPYRBcxgI-QDuUrla5aZbI0V_ozWqTfEFn12H4LrUkIbArF8VHRXqTZcBUBbqC5-l2qw-gBLVgxJiShuBJCAA",
+            "canary": "VEbsBNjeD/tZFGfTsmx4PQA3Uhd6NBXQrnqhIrG3REU=2:1:CANARY:EQegT+8buFPtHulyEBdNDl2TBzAF77VvDLa3kNg97SM=",
+            "sCanaryTokenName": "canary",
+            "fSkipRenderingNewCanaryToken": false,
+            "fEnableNewCsrfProtection": true,
+            "correlationId": "07bb3817-ae74-4120-bd64-0b2ff84a4e70",
+            "sessionId": "ae38e5d5-07aa-4efc-a390-1daba0771200",
+            "sRingId": "R5",
+            "locale": {
+                "mkt": "en-US",
+                "lcid": 1033
+            },
+            "slMaxRetry": 2,
+            "slReportFailure": true,
+            "strings": {
+                "desktopsso": {
+                    "authenticatingmessage": "Trying to sign you in"
+                }
+            },
+            "enums": {
+                "ClientMetricsModes": {
+                    "None": 0,
+                    "SubmitOnPost": 1,
+                    "SubmitOnRedirect": 2,
+                    "InstrumentPlt": 4
+                }
+            },
+            "urls": {
+                "instr": {
+                    "pageload": "https://login.microsoftonline.com/common/instrumentation/reportpageload",
+                    "dssostatus": "https://login.microsoftonline.com/common/instrumentation/dssostatus"
+                }
+            },
+            "browser": {
+                "ltr": 1,
+                "Chrome": 1,
+                "_Win": 1,
+                "_M138": 1,
+                "_D0": 1,
+                "Full": 1,
+                "Win81": 1,
+                "RE_WebKit": 1,
+                "b": {
+                    "name": "Chrome",
+                    "major": 138,
+                    "minor": 0
+                },
+                "os": {
+                    "name": "Windows",
+                    "version": "10.0"
+                },
+                "V": "138.0"
+            },
+            "watson": {
+                "url": "/common/handlers/watson",
+                "bundle": "https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/watson.min_q5ptmu8aniymd4ftuqdkda2.js",
+                "sbundle": "https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/watsonsupportwithjquery.3.5.min_dc940oomzau4rsu8qesnvg2.js",
+                "fbundle": "https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/frameworksupport.min_oadrnc13magb009k4d20lg2.js",
+                "resetErrorPeriod": 5,
+                "maxCorsErrors": -1,
+                "maxInjectErrors": 5,
+                "maxErrors": 10,
+                "maxTotalErrors": 3,
+                "expSrcs": ["https://login.microsoftonline.com", "https://aadcdn.msauth.net/", "https://aadcdn.msftauth.net/", ".login.microsoftonline.com"],
+                "envErrorRedirect": true,
+                "envErrorUrl": "/common/handlers/enverror"
+            },
+            "loader": {
+                "cdnRoots": ["https://aadcdn.msauth.net/", "https://aadcdn.msftauth.net/"],
+                "logByThrowing": true
+            },
+            "serverDetails": {
+                "slc": "ProdSlices",
+                "dc": "WUS3",
+                "ri": "PH1XXXX",
+                "ver": {
+                    "v": [2, 1, 21171, 5]
+                },
+                "rt": "2025-07-15T04:35:12",
+                "et": 14
+            },
+            "clientEvents": {
+                "enabled": true,
+                "telemetryEnabled": true,
+                "useOneDSEventApi": true,
+                "flush": 60000,
+                "autoPost": true,
+                "autoPostDelay": 1000,
+                "minEvents": 1,
+                "maxEvents": 1,
+                "pltDelay": 500,
+                "appInsightsConfig": {
+                    "instrumentationKey": "69adc3c768bd4dc08c19416121249fcc-66f1668a-797b-4249-95e3-6c6651768c28-7293",
+                    "webAnalyticsConfiguration": {
+                        "autoCapture": {
+                            "jsError": true
+                        }
+                    }
+                },
+                "defaultEventName": "IDUX_ESTSClientTelemetryEvent_WebWatson",
+                "serviceID": 3,
+                "endpointUrl": ""
+            },
+            "fApplyAsciiRegexOnInput": true,
+            "country": "NG",
+            "fBreakBrandingSigninString": true,
+            "bsso": {
+                "states": {
+                    "START": "start",
+                    "INPROGRESS": "in-progress",
+                    "END": "end",
+                    "END_SSO": "end-sso",
+                    "END_USERS": "end-users"
+                },
+                "nonce": "AwABEgEAAAADAOz_BQD0_0NLMlU9qGAPlP0xp_botkMvUbThs4DLAx0O1eylKJbs3CvJNSDg8FOQ2xxHfOcFl7aeVP1I1P-mZ0yhUDrkEVogAA",
+                "overallTimeoutMs": 4000,
+                "telemetry": {
+                    "type": "ChromeSsoTelemetry",
+                    "nonce": "AwABDwEAAAADAOz_BQD0_5Y3ypYfVCf23Qu_T3-6825CLXg-WmnVyP2acNdHo9s6mPqmblb5kJ7a8oE-5GNJZuIkVmmeTl-XWVXVP2-RCjaA3fTPu_zQghJEEGtavpTsIAA",
+                    "reportStates": []
+                },
+                "redirectEndStates": ["end"],
+                "cookieNames": {
+                    "aadSso": "AADSSO",
+                    "winSso": "ESTSSSO",
+                    "ssoTiles": "ESTSSSOTILES",
+                    "ssoPulled": "SSOCOOKIEPULLED",
+                    "userList": "ESTSUSERLIST"
+                },
+                "type": "chrome",
+                "reason": "Pull suppressed due to suppress flag in global browser SSO state"
+            },
+            "urlNoCookies": "https://login.microsoftonline.com/cookiesdisabled",
+            "fTrimChromeBssoUrl": true,
+            "inlineMode": 5,
+            "fShowCopyDebugDetailsLink": true,
+            "fTenantBrandingCdnAddEventHandlers": true,
+            "fAddTryCatchForIFrameRedirects": true
+        };
+        //]]>
+    </script>
+    <script type="text/javascript" nonce='3CaLTccN-k2ZlrxubuHWJA'>
+        //<![CDATA[
+        ! function() {
+            var e = window,
+                r = e.$Debug = e.$Debug || {},
+                t = e.$Config || {};
+            if (!r.appendLog) {
+                var n = [],
+                    o = 0;
+                r.appendLog = function(e) {
+                    var r = t.maxDebugLog || 25,
+                        i = (new Date).toUTCString() + ":" + e;
+                    n.push(o + ":" + i), n.length > r && n.shift(), o++
+                }, r.getLogs = function() {
+                    return n
+                }
+            }
+        }(),
+        function() {
+            function e(e, r) {
+                function t(i) {
+                    var a = e[i];
+                    if (i < n - 1) {
+                        return void(o.r[a] ? t(i + 1) : o.when(a, function() {
+                            t(i + 1)
+                        }))
+                    }
+                    r(a)
+                }
+                var n = e.length;
+                t(0)
+            }
+
+            function r(e, r, i) {
+                function a() {
+                    var e = !!s.method,
+                        o = e ? s.method : i[0],
+                        a = s.extraArgs || [],
+                        u = n.$WebWatson;
+                    try {
+                        var c = t(i, !e);
+                        if (a && a.length > 0) {
+                            for (var d = a.length, l = 0; l < d; l++) {
+                                c.push(a[l])
+                            }
+                        }
+                        o.apply(r, c)
+                    } catch (e) {
+                        return void(u && u.submitFromException && u.submitFromException(e))
+                    }
+                }
+                var s = o.r && o.r[e];
+                return r = r || this, s && (s.skipTimeout ? a() : n.setTimeout(a, 0)), s
+            }
+
+            function t(e, r) {
+                return Array.prototype.slice.call(e, r ? 1 : 0)
+            }
+            var n = window;
+            n.$Do || (n.$Do = {
+                "q": [],
+                "r": [],
+                "removeItems": [],
+                "lock": 0,
+                "o": []
+            });
+            var o = n.$Do;
+            o.when = function(t, n) {
+                function i(e) {
+                    r(e, a, s) || o.q.push({
+                        "id": e,
+                        "c": a,
+                        "a": s
+                    })
+                }
+                var a = 0,
+                    s = [],
+                    u = 1;
+                "function" == typeof n || (a = n,
+                    u = 2);
+                for (var c = u; c < arguments.length; c++) {
+                    s.push(arguments[c])
+                }
+                t instanceof Array ? e(t, i) : i(t)
+            }, o.register = function(e, t, n) {
+                if (!o.r[e]) {
+                    o.o.push(e);
+                    var i = {};
+                    if (t && (i.method = t), n && (i.skipTimeout = n), arguments && arguments.length > 3) {
+                        i.extraArgs = [];
+                        for (var a = 3; a < arguments.length; a++) {
+                            i.extraArgs.push(arguments[a])
+                        }
+                    }
+                    o.r[e] = i, o.lock++;
+                    try {
+                        for (var s = 0; s < o.q.length; s++) {
+                            var u = o.q[s];
+                            u.id == e && r(e, u.c, u.a) && o.removeItems.push(u)
+                        }
+                    } catch (e) {
+                        throw e
+                    } finally {
+                        if (0 === --o.lock) {
+                            for (var c = 0; c < o.removeItems.length; c++) {
+                                for (var d = o.removeItems[c], l = 0; l < o.q.length; l++) {
+                                    if (o.q[l] === d) {
+                                        o.q.splice(l, 1);
+                                        break
+                                    }
+                                }
+                            }
+                            o.removeItems = []
+                        }
+                    }
+                }
+            }, o.unregister = function(e) {
+                o.r[e] && delete o.r[e]
+            }
+        }(),
+        function(e, r) {
+            function t() {
+                if (!a) {
+                    if (!r.body) {
+                        return void setTimeout(t)
+                    }
+                    a = !0, e.$Do.register("doc.ready", 0, !0)
+                }
+            }
+
+            function n() {
+                if (!s) {
+                    if (!r.body) {
+                        return void setTimeout(n)
+                    }
+                    t(), s = !0, e.$Do.register("doc.load", 0, !0), i()
+                }
+            }
+
+            function o(e) {
+                (r.addEventListener || "load" === e.type || "complete" === r.readyState) && t()
+            }
+
+            function i() {
+                r.addEventListener ? (r.removeEventListener("DOMContentLoaded", o, !1), e.removeEventListener("load", n, !1)) : r.attachEvent && (r.detachEvent("onreadystatechange", o), e.detachEvent("onload", n))
+            }
+            var a = !1,
+                s = !1;
+            if ("complete" === r.readyState) {
+                return void setTimeout(n)
+            }! function() {
+                r.addEventListener ? (r.addEventListener("DOMContentLoaded", o, !1), e.addEventListener("load", n, !1)) : r.attachEvent && (r.attachEvent("onreadystatechange", o), e.attachEvent("onload", n))
+            }()
+        }(window, document),
+        function() {
+            function e() {
+                return f.$Config || f.ServerData || {}
+            }
+
+            function r(e, r) {
+                var t = f.$Debug;
+                t && t.appendLog && (r && (e += " '" + (r.src || r.href || "") + "'", e += ", id:" + (r.id || ""), e += ", async:" + (r.async || ""), e += ", defer:" + (r.defer || "")), t.appendLog(e))
+            }
+
+            function t() {
+                var e = f.$B;
+                if (void 0 === d) {
+                    if (e) {
+                        d = e.IE
+                    } else {
+                        var r = f.navigator.userAgent;
+                        d = -1 !== r.indexOf("MSIE ") || -1 !== r.indexOf("Trident/")
+                    }
+                }
+                return d
+            }
+
+            function n() {
+                var e = f.$B;
+                if (void 0 === l) {
+                    if (e) {
+                        l = e.RE_Edge
+                    } else {
+                        var r = f.navigator.userAgent;
+                        l = -1 !== r.indexOf("Edge")
+                    }
+                }
+                return l
+            }
+
+            function o(e) {
+                var r = e.indexOf("?"),
+                    t = r > -1 ? r : e.length,
+                    n = e.lastIndexOf(".", t);
+                return e.substring(n, n + v.length).toLowerCase() === v
+            }
+
+            function i() {
+                var r = e();
+                return (r.loader || {}).slReportFailure || r.slReportFailure || !1
+            }
+
+            function a() {
+                return (e().loader || {}).redirectToErrorPageOnLoadFailure || !1
+            }
+
+            function s() {
+                return (e().loader || {}).logByThrowing || !1
+            }
+
+            function u(e) {
+                if (!t() && !n()) {
+                    return !1
+                }
+                var r = e.src || e.href || "";
+                if (!r) {
+                    return !0
+                }
+                if (o(r)) {
+                    var i, a, s;
+                    try {
+                        i = e.sheet, a = i && i.cssRules, s = !1
+                    } catch (e) {
+                        s = !0
+                    }
+                    if (i && !a && s) {
+                        return !0
+                    }
+                    if (i && a && 0 === a.length) {
+                        return !0
+                    }
+                }
+                return !1
+            }
+
+            function c() {
+                function t(e) {
+                    g.getElementsByTagName("head")[0].appendChild(e)
+                }
+
+                function n(e, r, t, n) {
+                    var u = null;
+                    return u = o(e) ? i(e) : "script" === n.toLowerCase() ? a(e) : s(e, n), r && (u.id = r), "function" == typeof u.setAttribute && (u.setAttribute("crossorigin", "anonymous"), t && "string" == typeof t && u.setAttribute("integrity", t)), u
+                }
+
+                function i(e) {
+                    var r = g.createElement("link");
+                    return r.rel = "stylesheet", r.type = "text/css", r.href = e, r
+                }
+
+                function a(e) {
+                    var r = g.createElement("script"),
+                        t = g.querySelector("script[nonce]");
+                    if (r.type = "text/javascript", r.src = e, r.defer = !1, r.async = !1, t) {
+                        var n = t.nonce || t.getAttribute("nonce");
+                        r.setAttribute("nonce", n)
+                    }
+                    return r
+                }
+
+                function s(e, r) {
+                    var t = g.createElement(r);
+                    return t.src = e, t
+                }
+
+                function d(e, r) {
+                    if (e && e.length > 0 && r) {
+                        for (var t = 0; t < e.length; t++) {
+                            if (-1 !== r.indexOf(e[t])) {
+                                return !0
+                            }
+                        }
+                    }
+                    return !1
+                }
+
+                function l(r) {
+                    if (e().fTenantBrandingCdnAddEventHandlers) {
+                        var t = d(E, r) ? E : b;
+                        if (!(t && t.length > 1)) {
+                            return r
+                        }
+                        for (var n = 0; n < t.length; n++) {
+                            if (-1 !== r.indexOf(t[n])) {
+                                var o = t[n + 1 < t.length ? n + 1 : 0],
+                                    i = r.substring(t[n].length);
+                                return "https://" !== t[n].substring(0, "https://".length) && (o = "https://" + o, i = i.substring("https://".length)), o + i
+                            }
+                        }
+                        return r
+                    }
+                    if (!(b && b.length > 1)) {
+                        return r
+                    }
+                    for (var a = 0; a < b.length; a++) {
+                        if (0 === r.indexOf(b[a])) {
+                            return b[a + 1 < b.length ? a + 1 : 0] + r.substring(b[a].length)
+                        }
+                    }
+                    return r
+                }
+
+                function f(e, t, n, o) {
+                    if (r("[$Loader]: " + (L.failMessage || "Failed"), o), w[e].retry < y) {
+                        return w[e].retry++, h(e, t, n), void c._ReportFailure(w[e].retry, w[e].srcPath)
+                    }
+                    n && n()
+                }
+
+                function v(e, t, n, o) {
+                    if (u(o)) {
+                        return f(e, t, n, o)
+                    }
+                    r("[$Loader]: " + (L.successMessage || "Loaded"), o), h(e + 1, t, n);
+                    var i = w[e].onSuccess;
+                    "function" == typeof i && i(w[e].srcPath)
+                }
+
+                function h(e, o, i) {
+                    if (e < w.length) {
+                        var a = w[e];
+                        if (!a || !a.srcPath) {
+                            return void h(e + 1, o, i)
+                        }
+                        a.retry > 0 && (a.srcPath = l(a.srcPath), a.origId || (a.origId = a.id), a.id = a.origId + "_Retry_" + a.retry);
+                        var s = n(a.srcPath, a.id, a.integrity, a.tagName);
+                        s.onload = function() {
+                            v(e, o, i, s)
+                        }, s.onerror = function() {
+                            f(e, o, i, s)
+                        }, s.onreadystatechange = function() {
+                            "loaded" === s.readyState ? setTimeout(function() {
+                                v(e, o, i, s)
+                            }, 500) : "complete" === s.readyState && v(e, o, i, s)
+                        }, t(s), r("[$Loader]: Loading '" + (a.srcPath || "") + "', id:" + (a.id || ""))
+                    } else {
+                        o && o()
+                    }
+                }
+                var p = e(),
+                    y = p.slMaxRetry || 2,
+                    m = p.loader || {},
+                    b = m.cdnRoots || [],
+                    E = m.tenantBrandingCdnRoots || [],
+                    L = this,
+                    w = [];
+                L.retryOnError = !0, L.successMessage = "Loaded", L.failMessage = "Error", L.Add = function(e, r, t, n, o, i) {
+                    e && w.push({
+                        "srcPath": e,
+                        "id": r,
+                        "retry": n || 0,
+                        "integrity": t,
+                        "tagName": o || "script",
+                        "onSuccess": i
+                    })
+                }, L.AddForReload = function(e, r) {
+                    var t = e.src || e.href || "";
+                    L.Add(t, "AddForReload", e.integrity, 1, e.tagName, r)
+                }, L.AddIf = function(e, r, t) {
+                    e && L.Add(r, t)
+                }, L.Load = function(e, r) {
+                    h(0, e, r)
+                }
+            }
+            var d, l, f = window,
+                g = f.document,
+                v = ".css";
+            c.On = function(e, r, t) {
+                if (!e) {
+                    throw "The target element must be provided and cannot be null."
+                }
+                r ? c.OnError(e, t) : c.OnSuccess(e, t)
+            }, c.OnSuccess = function(e, t) {
+                if (!e) {
+                    throw "The target element must be provided and cannot be null."
+                }
+                if (u(e)) {
+                    return c.OnError(e, t)
+                }
+                var n = e.src || e.href || "",
+                    o = i(),
+                    s = a();
+                r("[$Loader]: Loaded", e);
+                var d = new c;
+                d.failMessage = "Reload Failed", d.successMessage = "Reload Success", d.Load(null, function() {
+                    if (o) {
+                        throw "Unexpected state. ResourceLoader.Load() failed despite initial load success. ['" + n + "']"
+                    }
+                    s && (document.location.href = "/error.aspx?err=504")
+                })
+            }, c.OnError = function(e, t) {
+                var n = e.src || e.href || "",
+                    o = i(),
+                    s = a();
+                if (!e) {
+                    throw "The target element must be provided and cannot be null."
+                }
+                r("[$Loader]: Failed", e);
+                var u = new c;
+                u.failMessage = "Reload Failed", u.successMessage = "Reload Success", u.AddForReload(e, t),
+                    u.Load(null, function() {
+                        if (o) {
+                            throw "Failed to load external resource ['" + n + "']"
+                        }
+                        s && (document.location.href = "/error.aspx?err=504")
+                    }), c._ReportFailure(0, n)
+            }, c._ReportFailure = function(e, r) {
+                if (s() && !t()) {
+                    throw "[Retry " + e + "] Failed to load external resource ['" + r + "'], reloading from fallback CDN endpoint"
+                }
+            }, f.$Loader = c
+        }(),
+        function() {
+            function e() {
+                if (!E) {
+                    var e = new h.$Loader;
+                    e.AddIf(!h.jQuery, y.sbundle, "WebWatson_DemandSupport"), y.sbundle = null, delete y.sbundle, e.AddIf(!h.$Api, y.fbundle, "WebWatson_DemandFramework"),
+                        y.fbundle = null, delete y.fbundle, e.Add(y.bundle, "WebWatson_DemandLoaded"), e.Load(r, t), E = !0
+                }
+            }
+
+            function r() {
+                if (h.$WebWatson) {
+                    if (h.$WebWatson.isProxy) {
+                        return void t()
+                    }
+                    m.when("$WebWatson.full", function() {
+                        for (; b.length > 0;) {
+                            var e = b.shift();
+                            e && h.$WebWatson[e.cmdName].apply(h.$WebWatson, e.args)
+                        }
+                    })
+                }
+            }
+
+            function t() {
+                if (!h.$WebWatson || h.$WebWatson.isProxy) {
+                    if (!L && JSON) {
+                        try {
+                            var e = new XMLHttpRequest;
+                            e.open("POST", y.url), e.setRequestHeader("Accept", "application/json"),
+                                e.setRequestHeader("Content-Type", "application/json; charset=UTF-8"), e.setRequestHeader("canary", p.apiCanary), e.setRequestHeader("client-request-id", p.correlationId), e.setRequestHeader("hpgid", p.hpgid || 0), e.setRequestHeader("hpgact", p.hpgact || 0);
+                            for (var r = -1, t = 0; t < b.length; t++) {
+                                if ("submit" === b[t].cmdName) {
+                                    r = t;
+                                    break
+                                }
+                            }
+                            var o = b[r] ? b[r].args || [] : [],
+                                i = {
+                                    "sr": y.sr,
+                                    "ec": "Failed to load external resource [Core Watson files]",
+                                    "wec": 55,
+                                    "idx": 1,
+                                    "pn": p.pgid || "",
+                                    "sc": p.scid || 0,
+                                    "hpg": p.hpgid || 0,
+                                    "msg": "Failed to load external resource [Core Watson files]",
+                                    "url": o[1] || "",
+                                    "ln": 0,
+                                    "ad": 0,
+                                    "an": !1,
+                                    "cs": "",
+                                    "sd": p.serverDetails,
+                                    "ls": null,
+                                    "diag": v(y)
+                                };
+                            e.send(JSON.stringify(i))
+                        } catch (e) {}
+                        L = !0
+                    }
+                    y.loadErrorUrl && window.location.assign(y.loadErrorUrl)
+                }
+                n()
+            }
+
+            function n() {
+                b = [], h.$WebWatson = null
+            }
+
+            function o(r) {
+                return function() {
+                    var t = arguments;
+                    b.push({
+                        "cmdName": r,
+                        "args": t
+                    }), e()
+                }
+            }
+
+            function i() {
+                var e = ["foundException", "resetException", "submit"],
+                    r = this;
+                r.isProxy = !0;
+                for (var t = e.length, n = 0; n < t; n++) {
+                    var i = e[n];
+                    i && (r[i] = o(i))
+                }
+            }
+
+            function a(e, r, t, n, o, i, a) {
+                var s = h.event;
+                return i || (i = l(o || s, a ? a + 2 : 2)), h.$Debug && h.$Debug.appendLog && h.$Debug.appendLog("[WebWatson]:" + (e || "") + " in " + (r || "") + " @ " + (t || "??")), $.submit(e, r, t, n, o || s, i, a)
+            }
+
+            function s(e, r) {
+                return {
+                    "signature": e,
+                    "args": r,
+                    "toString": function() {
+                        return this.signature
+                    }
+                }
+            }
+
+            function u(e) {
+                for (var r = [], t = e.split("\n"), n = 0; n < t.length; n++) {
+                    r.push(s(t[n], []))
+                }
+                return r
+            }
+
+            function c(e) {
+                for (var r = [], t = e.split("\n"), n = 0; n < t.length; n++) {
+                    var o = s(t[n], []);
+                    t[n + 1] && (o.signature += "@" + t[n + 1], n++), r.push(o)
+                }
+                return r
+            }
+
+            function d(e) {
+                if (!e) {
+                    return null
+                }
+                try {
+                    if (e.stack) {
+                        return u(e.stack)
+                    }
+                    if (e.error) {
+                        if (e.error.stack) {
+                            return u(e.error.stack)
+                        }
+                    } else if (window.opera && e.message) {
+                        return c(e.message)
+                    }
+                } catch (e) {}
+                return null
+            }
+
+            function l(e, r) {
+                var t = [];
+                try {
+                    for (var n = arguments.callee; r > 0;) {
+                        n = n ? n.caller : n, r--
+                    }
+                    for (var o = 0; n && o < w;) {
+                        var i = "InvalidMethod()";
+                        try {
+                            i = n.toString()
+                        } catch (e) {}
+                        var a = [],
+                            u = n.args || n.arguments;
+                        if (u) {
+                            for (var c = 0; c < u.length; c++) {
+                                a[c] = u[c]
+                            }
+                        }
+                        t.push(s(i, a)), n = n.caller, o++
+                    }
+                } catch (e) {
+                    t.push(s(e.toString(), []))
+                }
+                var l = d(e);
+                return l && (t.push(s("--- Error Event Stack -----------------", [])), t = t.concat(l)), t
+            }
+
+            function f(e) {
+                if (e) {
+                    try {
+                        var r = /function (.{1,})\(/,
+                            t = r.exec(e.constructor.toString());
+                        return t && t.length > 1 ? t[1] : ""
+                    } catch (e) {}
+                }
+                return ""
+            }
+
+            function g(e) {
+                if (e) {
+                    try {
+                        if ("string" != typeof e && JSON && JSON.stringify) {
+                            var r = f(e),
+                                t = JSON.stringify(e);
+                            return t && "{}" !== t || (e.error && (e = e.error, r = f(e)), (t = JSON.stringify(e)) && "{}" !== t || (t = e.toString())), r + ":" + t
+                        }
+                    } catch (e) {}
+                }
+                return "" + (e || "")
+            }
+
+            function v(e) {
+                var r = [];
+                try {
+                    if (jQuery ? (r.push("jQuery v:" + jQuery().jquery), jQuery.easing ? r.push("jQuery.easing:" + JSON.stringify(jQuery.easing)) : r.push("jQuery.easing is not defined")) : r.push("jQuery is not defined"), e && e.expectedVersion && r.push("Expected jQuery v:" + e.expectedVersion), m) {
+                        var t, n = "";
+                        for (t = 0; t < m.o.length; t++) {
+                            n += m.o[t] + ";"
+                        }
+                        for (r.push("$Do.o[" + n + "]"), n = "", t = 0; t < m.q.length; t++) {
+                            n += m.q[t].id + ";"
+                        }
+                        r.push("$Do.q[" + n + "]")
+                    }
+                    if (h.$Debug && h.$Debug.getLogs) {
+                        var o = h.$Debug.getLogs();
+                        o && o.length > 0 && (r = r.concat(o))
+                    }
+                    if (b) {
+                        for (var i = 0; i < b.length; i++) {
+                            var a = b[i];
+                            if (a && "submit" === a.cmdName) {
+                                try {
+                                    if (JSON && JSON.stringify) {
+                                        var s = JSON.stringify(a);
+                                        s && r.push(s)
+                                    }
+                                } catch (e) {
+                                    r.push(g(e))
+                                }
+                            }
+                        }
+                    }
+                } catch (e) {
+                    r.push(g(e))
+                }
+                return r
+            }
+            var h = window,
+                p = h.$Config || {},
+                y = p.watson,
+                m = h.$Do;
+            if (!h.$WebWatson && y) {
+                var b = [],
+                    E = !1,
+                    L = !1,
+                    w = 10,
+                    $ = h.$WebWatson = new i;
+                $.CB = {}, $._orgErrorHandler = h.onerror, h.onerror = a, $.errorHooked = !0, m.when("jQuery.version", function(e) {
+                    y.expectedVersion = e
+                }), m.register("$WebWatson")
+            }
+        }(),
+        function() {
+            function e(e, r) {
+                for (var t = r.split("."), n = t.length, o = 0; o < n && null !== e && void 0 !== e;) {
+                    e = e[t[o++]]
+                }
+                return e
+            }
+
+            function r(r) {
+                var t = null;
+                return null === u && (u = e(i, "Constants")), null !== u && r && (t = e(u, r)), null === t || void 0 === t ? "" : t.toString()
+            }
+
+            function t(t) {
+                var n = null;
+                return null === a && (a = e(i, "$Config.strings")), null !== a && t && (n = e(a, t.toLowerCase())), null !== n && void 0 !== n || (n = r(t)), null === n || void 0 === n ? "" : n.toString()
+            }
+
+            function n(e, r) {
+                var n = null;
+                return e && r && r[e] && (n = t("errors." + r[e])), n || (n = t("errors." + e)), n || (n = t("errors." + c)), n || (n = t(c)), n
+            }
+
+            function o(t) {
+                var n = null;
+                return null === s && (s = e(i, "$Config.urls")), null !== s && t && (n = e(s, t.toLowerCase())), null !== n && void 0 !== n || (n = r(t)), null === n || void 0 === n ? "" : n.toString()
+            }
+            var i = window,
+                a = null,
+                s = null,
+                u = null,
+                c = "GENERIC_ERROR";
+            i.GetString = t, i.GetErrorString = n, i.GetUrl = o
+        }(),
+        function() {
+            var e = window,
+                r = e.$Config || {};
+            e.$B = r.browser || {}
+        }(),
+        function() {
+            function e(e, r, t) {
+                e && e.addEventListener ? e.addEventListener(r, t) : e && e.attachEvent && e.attachEvent("on" + r, t)
+            }
+
+            function r(r, t) {
+                e(document.getElementById(r), "click", t)
+            }
+
+            function t(r, t) {
+                var n = document.getElementsByName(r);
+                n && n.length > 0 && e(n[0], "click", t)
+            }
+            var n = window;
+            n.AddListener = e, n.ClickEventListenerById = r, n.ClickEventListenerByName = t
+        }();
+        //]]>
+    </script>
+    <script type="text/javascript" nonce='3CaLTccN-k2ZlrxubuHWJA'>
+        //<![CDATA[
+        ! function(t, e) {
+            ! function() {
+                var n = e.getElementsByTagName("head")[0];
+                n && n.addEventListener && (n.addEventListener("error", function(e) {
+                    null !== e.target && "cdn" === e.target.getAttribute("data-loader") && t.$Loader.OnError(e.target)
+                }, !0), n.addEventListener("load", function(e) {
+                    null !== e.target && "cdn" === e.target.getAttribute("data-loader") && t.$Loader.OnSuccess(e.target)
+                }, !0))
+            }()
+        }(window, document);
+        //]]>
+    </script>
+
+
+    <link rel="prefetch" href="https://login.live.com/Me.htm?v=3" />
+    <link rel="shortcut icon" href="https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico" />
+
+    <script type="text/javascript" nonce='3CaLTccN-k2ZlrxubuHWJA'>
+        ServerData = $Config;
+    </script>
+
+
+
+    <link data-loader="cdn" crossorigin="anonymous" href="https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/converged.v2.login.min_81imvbluez-v5hbzpkxfcg2.css" rel="stylesheet" />
+
+
+    <script data-loader="cdn" crossorigin="anonymous" src="https://aadcdn.msauth.net/shared/1.0/content/js/ConvergedLogin_PCore_HSyce7L_rqkAx-3ngLsFYg2.js" integrity='sha384-cNhRHJvBVgzCsQRyEsGpoUaIhNgXrn6STeBvMUyA8T3Tu19sQUqc8ghFE08AIoj+' nonce='3CaLTccN-k2ZlrxubuHWJA'></script>
+
+    <script data-loader="cdn" crossorigin="anonymous" src="https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_l8i1wwom7wbodda4l9b6dw2.js" nonce='3CaLTccN-k2ZlrxubuHWJA'></script>
+
+
+
+</head>
+
+<body data-bind="defineGlobals: ServerData, bodyCssClass" class="cb" style="display: none">
+    <script type="text/javascript" nonce='3CaLTccN-k2ZlrxubuHWJA'>
+        //<![CDATA[
+        ! function() {
+            var e = window,
+                s = e.document,
+                i = e.$Config || {};
+            if (e.self === e.top) {
+                s && s.body && (s.body.style.display = "block")
+            } else if (!i.allowFrame) {
+                var o, t, r, f, n, d;
+                if (i.fAddTryCatchForIFrameRedirects) {
+                    try {
+                        o = e.self.location.href, t = o.indexOf("#"), r = -1 !== t, f = o.indexOf("?"), n = r ? t : o.length, d = -1 === f || r && f > t ? "?" : "&", o = o.substr(0, n) + d + "iframe-request-id=" + i.sessionId + o.substr(n), e.top.location = o
+                    } catch (e) {}
+                } else {
+                    o = e.self.location.href, t = o.indexOf("#"), r = -1 !== t, f = o.indexOf("?"), n = r ? t : o.length, d = -1 === f || r && f > t ? "?" : "&",
+                        o = o.substr(0, n) + d + "iframe-request-id=" + i.sessionId + o.substr(n), e.top.location = o
+                }
+            }
+        }();
+        //]]>
+    </script>
+
+</body>
+
+</html>
